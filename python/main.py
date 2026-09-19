@@ -19,8 +19,8 @@ def main():
         if not os.path.exists(file_path):
             os.makedirs(file_path)
 
-        output_filecsv = os.path.join(file_path, f"{ticker}_data.csv")
-        output_filexlsx = os.path.join(file_path, f"{ticker}_data.xlsx")
+        output_filecsv = os.path.join(file_path, f"{ticker}_data_raw.csv")
+        output_filexlsx = os.path.join(file_path, f"{ticker}_data_raw.xlsx")
 
         df.to_csv(output_filecsv, index=False)
         df.to_excel(output_filexlsx)
