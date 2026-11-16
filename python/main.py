@@ -34,15 +34,15 @@ def main():
     else:
         print(f"✅ Datos obtenidos para {ticker}:")
 
-        prossesed_path = file_path / "processed"
-        if not Path.exists(prossesed_path):
-            Path.mkdir(prossesed_path)
+        processed_path = file_path / "processed"
+        if not Path.exists(processed_path):
+            Path.mkdir(processed_path)
 
-        output_filecsv_prossesed = os.path.join(prossesed_path, f"{ticker}_data_prossesed.csv")
-        output_filexlsx_prossesed = os.path.join(prossesed_path, f"{ticker}_data_prossesed.xlsx")
+        output_filecsv_processed = os.path.join(processed_path, f"{ticker}_data_prossesed.csv")
+        output_filexlsx_processed = os.path.join(processed_path, f"{ticker}_data_prossesed.xlsx")
 
-        df.to_csv(output_filecsv_prossesed)
-        df.to_excel(output_filexlsx_prossesed)
-        print(f"\t✅ Datos verificados guardados en: {output_filecsv_prossesed} y {output_filexlsx_prossesed}")
+        df.to_csv(output_filecsv_processed)
+        df.to_excel(output_filexlsx_processed)
+        print(f"\t✅ Datos verificados guardados en: {output_filecsv_processed} y {output_filexlsx_processed}")
 
 main()
