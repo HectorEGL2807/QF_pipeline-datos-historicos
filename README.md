@@ -202,4 +202,4 @@ pytest -v
 
 Proyecto con fines educativos. Nada de lo contenido aquí constituye asesoría financiera.
 
-**Autor:** Hector Emiliano Garcia Luevano · [EmiGarcia377](https://github.com/EmiGarcia377)
+**Autor:** Hector Emiliano Garcia Luevano · [HectorEGL2807](https://github.com/HectorEGL2807)
