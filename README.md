@@ -4,8 +4,7 @@ Pipeline en Python que descarga precios históricos de acciones y criptomonedas,
 
 > **Idea central:** nunca construir un modelo sobre datos que no he verificado. Un backtester alimentado con datos defectuosos produce resultados falsos con total confianza.
 
-<!-- 📷 PLACEHOLDER 1: captura de la tabla de resumen en la terminal -->
-![Resumen del pipeline en terminal](docs/images/resumen-terminal.png)
+<img width="832" height="376" alt="Resumen del pipeline de cada Ticker descargado" src="https://github.com/user-attachments/assets/88e0f2fd-2947-4dd3-aa5a-d6d71c1decb5" />
 
 ---
 
@@ -107,11 +106,12 @@ Los símbolos se normalizan a mayúsculas, y los vacíos y duplicados se descart
 | `data/plots/<TICKER>_chart.png` | Precio de cierre ajustado en el tiempo |
 | `data/plots/<TICKER>_candle.png` | Velas japonesas con volumen y medias móviles (últimos 251 días) |
 
-<!-- 📷 PLACEHOLDER 2: gráfica de precio de cierre ajustado de un ticker -->
-![Gráfica de cierre ajustado](docs/images/ejemplo-chart.png)
+---
+<img width="1800" height="900" alt="NVDA_chart" src="https://github.com/user-attachments/assets/db4441f3-e057-4490-8e08-3fa9e3b3cfa9" />
 
-<!-- 📷 PLACEHOLDER 3: gráfica de velas con volumen -->
-![Gráfica de velas](docs/images/ejemplo-candle.png)
+---
+
+<img width="1725" height="862" alt="NVDA_candle" src="https://github.com/user-attachments/assets/9e513356-fedb-4163-9954-1e7e140832fa" />
 
 ---
 
